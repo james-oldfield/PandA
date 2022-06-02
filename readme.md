@@ -1,6 +1,6 @@
 # PandA: Unsupervised Learning of Parts and Appearances in the Feature Maps of GANs
 
-## [ [paper](./) | [project page](http://eecs.qmul.ac.uk/~jo001/PandA/) | [video](https://www.youtube.com/watch?v=1KY055goKP0) | [edit zoo](https://colab.research.google.com/github/james-oldfield/PandA/blob/main/ffhq-edit-zoo.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/james-oldfield/PandA/blob/main/demo.ipynb) ]
+## [ [paper](https://arxiv.org/pdf/2206.00048.pdf) | [project page](http://eecs.qmul.ac.uk/~jo001/PandA/) | [video](https://www.youtube.com/watch?v=1KY055goKP0) | [edit zoo](https://colab.research.google.com/github/james-oldfield/PandA/blob/main/ffhq-edit-zoo.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/james-oldfield/PandA/blob/main/demo.ipynb) ]
 
 ![main.jpg](./images/main.jpg)
 
@@ -62,10 +62,9 @@ If you find our work useful, please consider citing our paper:
 ```bibtex
 @misc{oldfield2022panda,
     title={PandA: Unsupervised Learning of Parts and Appearances in the Feature Maps of GANs},
-    author= {Oldfield, James and Tzelepis, Christos and Panagakis, Yannis and Nicolaou, Mihalis A. and Ioannis, Patras},
-    month = {March},
+    author={James Oldfield and Christos Tzelepis and Yannis Panagakis and Mihalis A. Nicolaou and Ioannis Patras},
     year={2022},
-    eprint={},
+    eprint={2206.00048},
     archivePrefix={arXiv},
     primaryClass={cs.CV}
 }
