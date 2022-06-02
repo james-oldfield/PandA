@@ -70,6 +70,12 @@ If you find our work useful, please consider citing our paper:
 }
 ```
 
+# contact
+
+**Please feel free to get in touch at**: `j.a.oldfield@qmul.ac.uk`
+
+---
+
 ## credits
 
 - `./networks/genforce/` contains mostly code directly from [https://github.com/genforce/genforce](https://github.com/genforce/genforce).
