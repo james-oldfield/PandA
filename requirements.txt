@@ -1,9 +1,12 @@
 boto3==1.21.8
 botocore==1.24.8
+bs4
 imageio==2.14.1
+jupyterlab
 matplotlib==3.5.1
 nltk==3.7
 numpy
+opencv-python==4.1.2.30
 Pillow==9.0.1
 requests==2.27.0
 tensorly==0.7.0

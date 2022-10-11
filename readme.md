@@ -46,7 +46,7 @@ Quickly produce edits with annotated directions with pre-trained factors on FFHQ
 Should you wish to run the notebooks, please consult this section below:
 
 ### Install
-First, please install the dependencies with `pip install -r requirements.txt`.
+First, please install the dependencies with `pip install -r requirements.txt`, or alternatively with conda using `conda env create -f environment.yml`
 
 ### Pre-trained models
 Should you wish to download the pre-trained models to run the notebooks, please first download them with:
