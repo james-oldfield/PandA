@@ -6,7 +6,7 @@ jupyterlab
 matplotlib==3.5.1
 nltk==3.7
 numpy
-opencv-python==4.1.2.30
+opencv-python==4.2.0.32
 Pillow==9.0.1
 requests==2.27.0
 tensorly==0.7.0
