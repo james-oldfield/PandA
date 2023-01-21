@@ -1,11 +1,12 @@
 # PandA: Unsupervised Learning of Parts and Appearances in the Feature Maps of GANs
 
-## [ [paper](https://arxiv.org/pdf/2206.00048.pdf) | [project page](http://eecs.qmul.ac.uk/~jo001/PandA/) | [video](https://www.youtube.com/watch?v=1KY055goKP0) | [edit zoo](https://colab.research.google.com/github/james-oldfield/PandA/blob/main/ffhq-edit-zoo.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/james-oldfield/PandA/blob/main/demo.ipynb) ]
+## [ [paper](https://openreview.net/pdf?id=iUdSB2kK9GY) | [project page](http://eecs.qmul.ac.uk/~jo001/PandA/) | [video](https://www.youtube.com/watch?v=1KY055goKP0) | [edit zoo](https://colab.research.google.com/github/james-oldfield/PandA/blob/main/ffhq-edit-zoo.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/james-oldfield/PandA/blob/main/demo.ipynb) ]
 
 ![main.jpg](./images/main.jpg)
 
 > **PandA: Unsupervised Learning of Parts and Appearances in the Feature Maps of GANs**<br>
 > James Oldfield, Christos Tzelepis, Yannis Panagakis, Mihalis A. Nicolaou, and Ioannis Patras<br>
+> *International Conference on Learning Representations (ICLR)*, 2023 <br>
 > https://arxiv.org/abs/2206.00048 <br>
 >
 > **Abstract**: Recent advances in the understanding of Generative Adversarial Networks (GANs) have led to remarkable progress in visual editing and synthesis tasks, capitalizing on the rich semantics that are embedded in the latent spaces of pre-trained GANs. However, existing methods are often tailored to specific GAN architectures and are limited to either discovering global semantic directions that do not facilitate localized control, or require some form of supervision through manually provided regions or segmentation masks. In this light, we present an architecture-agnostic approach that jointly discovers factors representing spatial parts and their appearances in an entirely unsupervised fashion. These factors are obtained by applying a semi-nonnegative tensor factorization on the feature maps, which in turn enables context-aware local image editing with pixel-level control. In addition, we show that the discovered appearance factors correspond to saliency maps that localize concepts of interest, without using any labels. Experiments on a wide range of GAN architectures and datasets show that, in comparison to the state of the art, our method is far more efficient in terms of training time and, most importantly, provides much more accurate localized control.
@@ -60,13 +61,11 @@ wget -r -np -nH --cut-dirs=2 -R *index* http://eecs.qmul.ac.uk/~jo001/PandA-pret
 If you find our work useful, please consider citing our paper:
 
 ```bibtex
-@misc{oldfield2022panda,
+@inproceedings{oldfield2023panda,
     title={PandA: Unsupervised Learning of Parts and Appearances in the Feature Maps of GANs},
     author={James Oldfield and Christos Tzelepis and Yannis Panagakis and Mihalis A. Nicolaou and Ioannis Patras},
-    year={2022},
-    eprint={2206.00048},
-    archivePrefix={arXiv},
-    primaryClass={cs.CV}
+    booktitle={Int. Conf. Learn. Represent.},
+    year={2023}
 }
 ```
 
