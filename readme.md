@@ -1,6 +1,7 @@
 # PandA: Unsupervised Learning of Parts and Appearances in the Feature Maps of GANs
 
-## [ [paper](https://openreview.net/pdf?id=iUdSB2kK9GY) | [project page](http://eecs.qmul.ac.uk/~jo001/PandA/) | [video](https://www.youtube.com/watch?v=1KY055goKP0) | [edit zoo](https://colab.research.google.com/github/james-oldfield/PandA/blob/main/ffhq-edit-zoo.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/james-oldfield/PandA/blob/main/demo.ipynb) ]
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/james-oldfield/PandA/blob/main/demo.ipynb) [![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces/james-oldfield/PandA)
+## [ [paper](https://openreview.net/pdf?id=iUdSB2kK9GY) | [project page](http://eecs.qmul.ac.uk/~jo001/PandA/) | [video](https://www.youtube.com/watch?v=1KY055goKP0) | [edit zoo](https://colab.research.google.com/github/james-oldfield/PandA/blob/main/ffhq-edit-zoo.ipynb) ]
 
 ![main.jpg](./images/main.jpg)
 
